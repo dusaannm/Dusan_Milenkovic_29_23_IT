@@ -56,4 +56,4 @@ Aplikacija omogućava:
 
 **Dušan Milenković**  
 IT 29/23 – Računarski fakultet  
-dusan.milenkovic0402@gmail.com
+dmilenkovic2923it@raf.rs
