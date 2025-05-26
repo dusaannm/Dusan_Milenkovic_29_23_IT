@@ -1,59 +1,18 @@
-# Tehnički Pregled – Laravel Projekat
+# Laravel Projekat – Tehnički Pregled
 
-Ovo je školski Laravel projekat za predmet **Web programiranje**, student **Dušan Milenković**, odsek **IT 29/23**.
+Projekat iz PWA, student: **Dušan Milenković, 29/23 IT**.
 
-## 📦 Tehnologije
-- Laravel 10
-- PHP 8.2
-- Bootstrap / Tailwind (kombinacija)
-- MySQL
-- JavaScript (DataTables, Chart.js)
+## Pokretanje projekta
 
-## ⚙️ Pokretanje projekta
+1. Prvo pokrenuti `setup.bat` (podesi .env, linkuje storage, migrira bazu).
+2. Zatim pokrenuti `start.bat` da se pokrene aplikacija.
 
-1. Kloniraj projekat:
-   ```bash
-   git clone https://github.com/dusannnm/Dusan_Milenkovic_29_23_IT.git
-   cd Dusan_Milenkovic_29_23_IT
-   ```
+## Funkcionalnosti
 
-2. Instaliraj Laravel dependencije:
-   ```bash
-   composer install
-   ```
+- Javni deo sajta (početna, kontakt, ponuda meseca)
+- Registrovani korisnici mogu zakazati termin i pregledati svoje
+- Admin panel (vozila, termini, usluge, grafikoni)
 
-3. Napravi `.env` fajl:
-   ```bash
-   cp .env.example .env
-   ```
-
-4. Generiši aplikacioni ključ:
-   ```bash
-   php artisan key:generate
-   ```
-
-5. Podesi `.env` fajl (MySQL konekcija itd.)
-
-6. Pokreni migracije (ako su prisutne):
-   ```bash
-   php artisan migrate
-   ```
-
-7. Pokreni lokalni server:
-   ```bash
-   php artisan serve
-   ```
-
-## 📸 Sadržaj projekta
-
-Aplikacija omogućava:
-- Zakazivanje tehničkog pregleda
-- CRUD za vozila, usluge i termine
-- Admin panel sa statistikama i DataTables
-- Dark modern UI (Vercel-style hero + admin panel)
-
-## 👨‍🎓 Autor
-
+## Kontakt
 **Dušan Milenković**  
-IT 29/23 – Računarski fakultet  
 dmilenkovic2923it@raf.rs
